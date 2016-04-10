@@ -1,0 +1,17 @@
+{
+    "name": "yarygin/ioc",
+    "description": "my test ioc",
+    "minimum-stability": "stable",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Alex Yarygin",
+            "email": "yarygin.alexander@inbox.ru"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Yarygin\\": "src/"
+        }
+    }
+}
