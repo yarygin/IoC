@@ -6,5 +6,7 @@ interface Container
 
     public function boot();
 
-    public function register(array $bindings);
+    public function register($binding_interface, $binding_class);
+
+    public function getBindings();
 }

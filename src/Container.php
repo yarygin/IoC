@@ -1,19 +1,9 @@
 <?php
 namespace Yarygin;
 
-abstract class Container
+abstract class Container implements \Yarygin\Interfaces\Container
 {
     protected $bindings = [];
-
-    public function __construct()
-    {
-
-    }
-
-    public function boot()
-    {
-
-    }
 
     public function register($binding_interface, $binding_class)
     {
