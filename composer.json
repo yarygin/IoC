@@ -1,7 +1,7 @@
 {
     "name": "yarygin/ioc",
     "description": "my test ioc",
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "license": "proprietary",
     "authors": [
         {
